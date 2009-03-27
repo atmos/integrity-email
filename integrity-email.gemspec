@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name              = 'integrity-email'
-  s.version           = '1.0.1'
-  s.date              = '2008-11-16'
+  s.version           = '1.0.1.1'
+  s.date              = '2009-03-27'
   s.summary           = 'Email notifier for the Integrity continuous integration server'
   s.description       = 'Easily let Integrity send emails after each build'
   s.homepage          = 'http://integrityapp.com'
@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
                         )
 
   s.add_dependency 'integrity'
-  s.add_dependency 'sinatra-ditties', ['>= 0.0.3']
+  s.add_dependency 'foca-sinatra-ditties', ['>= 0.0.3']
 end
